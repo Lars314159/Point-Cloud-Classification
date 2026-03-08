@@ -1,0 +1,50 @@
+<<<<<<< HEAD
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+dist/
+build/
+.eggs/
+
+# Virtual environments
+venv/
+.venv/
+env/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Data files (large — don't commit)
+*.hyc
+data/
+
+# Results (regenerate with the notebook)
+*.csv
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+=======
+# Ignore Data Files
+*.ply
+*.hyc
+data/
+
+# Ignore Python Cache
+__pycache__/
+*.pyc
+
+# Ignore Cluster Logs (optional, keep if you want)
+*.out
+*.err
+
+# Ignore system files
+.DS_Store
+>>>>>>> 3b015f529b99ae9f2af11a19d2b6360a29a59fb8
